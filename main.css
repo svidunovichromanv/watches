@@ -1,0 +1,159 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.top-block{
+    padding-top: 20px;
+    height: 180px;
+}
+.top-txt{
+    position: relative;
+    left: 5px;
+}
+.small-grey-txt{
+    font-size:.9em;
+    color: #767676;
+    line-height: 1.1;
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+}
+.couter-top{
+    text-align: center;
+    background-color: #b6907e;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size:13px;
+}
+
+.second-top-line{
+    padding-top: 62px;
+}
+
+.logo-txt{
+    display: inline-block;
+    font-size:1.9em;
+    font-family: 'BebasNeueBold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    left:6px;
+    text-transform: capitalize;
+    color: white;
+}
+.logo-small-txt{
+    position: relative;
+    padding-left: 6%;
+    bottom: 4px;
+}
+
+.bolt-caps-txt{
+    font-family: 'BebasNeueBold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+    color: white;
+}
+
+.bolt-caps-txt:hover{
+    color: #b6907e;
+}
+
+.nav-txt{
+    position: relative;
+    top: 14px;
+    left: 70px;
+}
+
+.nav-txt > li{
+    padding-left: 8%;
+    font-size:1.15em;
+}
+a:visited{
+    color: #b6907e;
+    text-decoration: underline;
+}
+.tel{
+    position: relative;
+    left: 22px;
+    top:6px;
+}
+
+.tel-txt{
+    font-size:1.6em;
+    position: relative;
+    left: 28px;
+    top:3px;
+}
+
+.first-line-block{
+    background-position: right;
+    background-repeat:no-repeat;
+    height: 730px;
+    margin-left: 152px;
+    padding-top: 88px;
+    position: absolute;
+    top:180px;
+    width: 100%;
+}
+#first-slider-first{
+    background-image: url(./img/bg-1.jpg);
+}
+#first-slider-second{
+    display: none;
+    background-image: url(./img/bg-2.jpg);
+}
+
+.btn-block-main{
+    margin-top: 50px;
+    margin-left: 6px;
+}
+
+.main-btn{
+    background-color: black;
+    color: #977869;
+    border: 2px solid #977869;
+    padding: 18px 32px 18px 32px;
+    font-size: 1.08em;
+    letter-spacing: .13em;
+    margin-right: 30px;
+}
+
+.btn-block-slider{
+    margin-top: 60px;
+}
+.btn-slider{
+    background-color: #5d4a41;
+    border: none;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
+
+
+.bolt-txt-header{
+    font-family: 'BebasNeueBold', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    font-size:5.23em;
+    line-height: 1.21;
+}
+
+/*img resp*/
+.icon-top{
+    width: 22px;
+    height: 22px;
+}
