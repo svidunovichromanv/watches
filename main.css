@@ -17,7 +17,7 @@ body{
 .top-block{
     padding-top: 20px;
     height: 180px;
-    width: 100%;
+    margin-right: 30px;
 }
 .top-txt{
     position: relative;
